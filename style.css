@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(planodeFundo.jpg);
+    background-size: 100% auto;
+}
+
+
+/*Barra de inforçaões */
+nav{
+    float: left;
+    height: 100%;
+    width: 201px;
+    margin: 140px 5px;
+    background: #545056a6;;
+}
+
+nav img{
+    width: 134px;
+    height: 134px;
+    margin: 5px 30px;
+
+}
+
+
+nav ul{
+    margin: 13px;
+}
+
+nav ul li{
+    
+    
+    border: groove;
+    border-color: grey;
+    margin: 10px -9px;
+    padding: 6px 13px 8px;
+    font-size: 20px;
+    font-style: oblique;
+    list-style-type: none;
+
+    
+}
+
+a{
+    text-decoration: none;
+    color:#dec6c6db
+}
+
+.barra-t{
+    text-align: center;
+    margin: 18px 51px;
+}
+
+
+/* Barra de pesquisa */
+
+form div{
+    margin-top: 0;
+    margin-left: 1000px;
+    display: flex;
+
+}
+
+form button{
+    height: 36px;
+    width: 53px;
+    margin: 12px 0px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+
+}
+
+.buscar{
+    height: 37px;
+    width: 289px;
+    margin: 12px 0px;
+    border-radius: 29px;
+    text-align: center;
+}
+
+
+/* Titulo da Página */
+.img{
+    height: 40px;
+    width: 200px;
+}
+.img-1{
+    height: 40px;
+    width: 130px;
+}
+
+.img-2{
+
+}
+
+section div img{
+    margin: 30px;
+}
+
+
+/* Rodá pé */
+footer{
+    background-color:#000000;
+    text-align: center;
+    color: white;
+    height: 8vh;
+}
